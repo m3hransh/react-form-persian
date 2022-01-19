@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+#root{
+  height: 100%l;
+}
 @layer base {
   input {
     border-radius: 20px;

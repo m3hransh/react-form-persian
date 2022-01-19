@@ -2,7 +2,8 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}"
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/**/*.{html, htm}"
   ],
   darkMode: 'class',
   theme: {
@@ -12,7 +13,7 @@ module.exports = {
     extend: {
       colors: {
         primary: colors.teal,
-        secondary: colors.gray,
+        secondary: colors.rose,
         accent: colors.rose,
         main: colors.coolGray,
         background: colors.blueGray
